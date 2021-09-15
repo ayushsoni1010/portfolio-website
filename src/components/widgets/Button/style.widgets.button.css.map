@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.widgets.button.scss"
+    ],
+    "names": [],
+    "file": "style.widgets.button.css"
+}
