@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Home",
+        "path":"/"
+    },
+    {
+        "title":"About",
+        "path":"/about"
+    },
+    {
+        "title":"Skills",
+        "path":"/skils"
+    },
+    {
+        "title":"Projects",
+        "path":"/projects"
+    },
+    {
+        "title":"Experience",
+        "path":"/experience"
+    },
+    {
+        "title":"Resume",
+        "path":"/resume"
+    },
+    {
+        "title":"Contact",
+        "path":"/contact"
+    }
+]
