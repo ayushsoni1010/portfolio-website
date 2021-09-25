@@ -1,0 +1,11 @@
+div.intro-section-wrapper{
+    display: flex;
+    > p.greet{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    > h1.name{
+        font-size: 150px;
+        font-weight: 700;
+    }
+}

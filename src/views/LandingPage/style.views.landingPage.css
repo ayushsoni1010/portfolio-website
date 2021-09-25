@@ -1,0 +1,16 @@
+div.intro-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.intro-section-wrapper > p.greet {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+div.intro-section-wrapper > h1.name {
+  font-size: 150px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.views.landingPage.css.map */
