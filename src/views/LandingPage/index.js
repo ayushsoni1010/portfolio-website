@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.views.landingPage.css";
-// import gitImage from "../../assets/gitHeroImage.svg";
+import gitImage from "../../Assets/gitHeroImage.svg";
 import socialLinks from "./__social-links.json";
 
 export default function LandingPage() {
@@ -35,7 +35,7 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="git-image">
-        {/* <img src={gitImage} alt="gitImage" className="git-photo" /> */}
+        <img src={gitImage} alt="gitImage" className="git-photo" />
       </div>
     </div>
   );
