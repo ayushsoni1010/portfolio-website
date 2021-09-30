@@ -17,4 +17,8 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=index.css.map */
