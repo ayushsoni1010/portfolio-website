@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.views.contactUs.css";
 import Button from '../../components/widgets/Button'
-import imgContact from "../../assets/contactUs.svg";
+import imgContact from "../../Assets/contactUs.svg";
 
 export default function ContactUs() {
   return (
