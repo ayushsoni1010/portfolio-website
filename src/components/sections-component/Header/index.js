@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import logo from '../../../assets/Logo.png'
+import logo from '../../../assets/logoIcon.png'
 import headerOptions from './__headerOptions.json';
 import './style.header.css';
 
@@ -17,8 +17,10 @@ export default function Header() {
           {headerDetails.map((data, index) => {
             return (
               <ul className="header-options-wrapper">
-                <li className="header-option-list" key={index}>
-                  <a href={data.path}>{data.title}</a>
+                <li className="header-option-list">
+                  <a href={data.path} key={index}>
+                    {data.title}
+                  </a>
                 </li>
               </ul>
             );
