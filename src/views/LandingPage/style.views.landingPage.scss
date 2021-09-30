@@ -1,0 +1,59 @@
+div.intro-section-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 4em;
+    > div.profile-content{
+        display: flex;
+        flex-direction: column;
+        > p.greet{
+            font-size: 35px;
+            font-weight: 700;
+            margin-left: 8px;
+        }
+        > h1.name{
+            font-size: 150px;
+            font-weight: 700;
+        }
+        > p.titles{
+            font-size: 30px;
+            margin: 8px;
+            font-weight: 700;
+        }
+        > div.social-links-wrapper{
+            display: flex;
+            margin-left: 8px;
+            > div.social-links-list{
+                display: flex;
+                gap: 15px;
+                > a{
+                    display: flex;
+                    > button{
+                        padding:8px;
+                        font-size: 20px;
+                        background: none;
+                        border: 2px solid black;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: #dadada;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    > div.git-image{
+        display: flex;
+        > img{
+            width: 500px;
+            cursor: pointer;
+        }
+    }
+}
+
+// @media screen and (max-width: 900px) {
+//     .git-photo{
+//         width: 100px;
+//     }
+// }

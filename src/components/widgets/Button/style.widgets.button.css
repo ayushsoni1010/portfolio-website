@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=style.widgets.button.css.map */
+button.button-properties {
+  padding: 0.7em 1.5em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+button.button-properties:focus {
+  outline: none;
+}
+
+button.button-icon-properties {
+  padding: 0.7em 1.5em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background-color: blue;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+button.button-icon-properties:focus {
+  outline: none;
+}
+
+button.button-icon-properties > i {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=style.widgets.button.css.map */
