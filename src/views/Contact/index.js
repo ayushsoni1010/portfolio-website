@@ -1,16 +1,16 @@
 import React from "react";
 import "./style.views.contactUs.css";
 import Button from '../../components/widgets/Button'
-import img from "../../assets/contactUs.svg";
+import imgContact from "../../assets/contactUs.svg";
 
 export default function ContactUs() {
   return (
     <div className="contact-us">
       <h1 className="contact-us-title  ">Contact Us</h1>
-      
+
       <div className="form-section-wrapper">
         <img
-          src={img}
+          src={imgContact}
           alt="Contact-Us-Illustration"
           className="contact-illustration"
         />
@@ -44,7 +44,7 @@ export default function ContactUs() {
             rows="5"
           ></textarea>
           <a href="/contact" className="submit-form-button">
-            <Button value="Submit"/>
+            <Button value="Submit" />
           </a>
         </form>
       </div>

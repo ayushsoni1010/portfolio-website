@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.views.landingPage.css";
-import gitImage from "../../assets/hero_version_control.svg";
+import gitImage from "../../assets/gitHeroImage.svg";
 import socialLinks from "./__social-links.json";
 
 export default function LandingPage() {
