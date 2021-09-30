@@ -16,8 +16,8 @@ export default function Header() {
         <div className="header-options-container">
           {headerDetails.map((data, index) => {
             return (
-              <ul className="header-options-wrapper">
-                <li className="header-option-list" key={index}>
+              <ul className="header-options-wrapper" key={index}>
+                <li className="header-option-list">
                   <a href={data.path}>{data.title}</a>
                 </li>
               </ul>
