@@ -2,15 +2,84 @@ div.intro-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 4em;
 }
 
-div.intro-section-wrapper > p.greet {
-  font-size: 22px;
+div.intro-section-wrapper > div.profile-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.intro-section-wrapper > div.profile-content > p.greet {
+  font-size: 35px;
   font-weight: 700;
+  margin-left: 8px;
 }
 
-div.intro-section-wrapper > h1.name {
+div.intro-section-wrapper > div.profile-content > h1.name {
   font-size: 150px;
   font-weight: 700;
+}
+
+div.intro-section-wrapper > div.profile-content > p.titles {
+  font-size: 30px;
+  margin: 8px;
+  font-weight: 700;
+}
+
+div.intro-section-wrapper > div.profile-content > div.social-links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+}
+
+div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div.social-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div.social-links-list > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div.social-links-list > a > button {
+  padding: 8px;
+  font-size: 20px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div.social-links-list > a > button:hover {
+  background-color: #dadada;
+}
+
+div.intro-section-wrapper > div.git-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.intro-section-wrapper > div.git-image > img {
+  width: 500px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.views.landingPage.css.map */

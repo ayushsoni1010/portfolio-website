@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import logo from '../../../Assets/Logo.png'
+import logo from '../../../assets/Logo.png'
 import headerOptions from './__headerOptions.json';
 import './style.header.css';
 

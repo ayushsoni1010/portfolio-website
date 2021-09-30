@@ -41,7 +41,7 @@ header.header > div.logo-wrapper > a > img {
 header.header > div.logo-wrapper > a > p {
   color: black;
   font-weight: 500;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 header.header > div.header-options-container {
