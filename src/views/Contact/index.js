@@ -6,7 +6,8 @@ import imgContact from "../../Assets/contactUs.svg";
 export default function Contact() {
   return (
     <div className="contact-us">
-      <h1 className="contact-us-title gradient-text ">Contact Me</h1>
+      <h1 className="contact-us-title">Contact Me</h1>
+      <p className="bg-contact">Contact Me</p>
 
       <div className="form-section-wrapper">
         <img

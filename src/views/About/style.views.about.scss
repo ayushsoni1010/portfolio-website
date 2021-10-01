@@ -1,0 +1,57 @@
+div.about-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    > h1.about-section-title{
+        margin-top: 1em;
+        font-size: 90px;
+        text-align: center;
+        font-family: inherit;
+        font-weight: 800;
+        color: black;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 10;
+        font-family: 'Baloo 2',sans-serif;
+    }
+    > p.bg-about{
+        font-size: 110px;
+        font-weight: 700;
+        position: absolute;
+        margin-top:125px;
+        opacity: 30%;
+    }
+    > div.about-info-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3em;
+        gap: 5rem;
+        > div.about-me-btn-para{
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+            flex-direction: column;
+            margin-left: 4em;
+            > p{
+                margin-right: 8em;
+                line-height: 1.6;
+                font-size: 20px;
+                text-align: left;
+            }
+            > a{
+                margin-top: 30px;
+                margin-right: 45em;
+            }
+        }
+        > img.about-me-profilePic{
+            margin-right: 5em;
+            margin-top: -30px;
+        }
+    }
+}
