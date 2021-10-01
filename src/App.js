@@ -19,7 +19,7 @@ export default function App(){
         {/* <Route path="/projects" exact component={Projects}/> */}
         <Route path="/contact" exact component={Contact}/>
       </BrowserRouter>
-      <Footer />
+      <Footer/>
     </div>
   )
 }

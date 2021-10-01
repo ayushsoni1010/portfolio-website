@@ -14,6 +14,7 @@ div.about-section-wrapper {
           justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 div.about-section-wrapper > h1.about-section-title {
@@ -34,7 +35,7 @@ div.about-section-wrapper > p.bg-about {
   font-weight: 700;
   position: absolute;
   margin-top: 125px;
-  opacity: 30%;
+  opacity: 50%;
 }
 
 div.about-section-wrapper > div.about-info-wrapper {
@@ -71,11 +72,11 @@ div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para > p {
   line-height: 1.6;
   font-size: 20px;
   text-align: left;
+  font-family: 'Inter';
 }
 
 div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para > a {
-  margin-top: 30px;
-  margin-right: 45em;
+  margin-top: 20px;
 }
 
 div.about-section-wrapper > div.about-info-wrapper > img.about-me-profilePic {

@@ -5,6 +5,7 @@ div.about-section-wrapper{
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
     > h1.about-section-title{
         margin-top: 1em;
         font-size: 90px;
@@ -22,7 +23,7 @@ div.about-section-wrapper{
         font-weight: 700;
         position: absolute;
         margin-top:125px;
-        opacity: 30%;
+        opacity: 50%;
     }
     > div.about-info-wrapper{
         display: flex;
@@ -43,10 +44,10 @@ div.about-section-wrapper{
                 line-height: 1.6;
                 font-size: 20px;
                 text-align: left;
+                font-family: 'Inter';
             }
             > a{
-                margin-top: 30px;
-                margin-right: 45em;
+                margin-top: 20px;
             }
         }
         > img.about-me-profilePic{
