@@ -12,7 +12,16 @@ header.header{
             align-items: center;
             > img{
                 width: 110px;
-                height: 110px;
+                height: 110px;    > h1.about-section-title{
+        margin-top: 1em;
+        font-size: 80px;
+        text-align: center;
+        font-family: inherit;
+        font-weight: 700;
+        color: black;
+        margin-right: auto;
+        margin-left: auto;
+    }
                 margin-left: 10px;
             }
             > p{

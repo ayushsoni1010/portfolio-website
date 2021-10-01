@@ -38,6 +38,17 @@ header.header > div.logo-wrapper > a > img {
   margin-left: 10px;
 }
 
+header.header > div.logo-wrapper > a > img > h1.about-section-title {
+  margin-top: 1em;
+  font-size: 80px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 header.header > div.logo-wrapper > a > p {
   color: black;
   font-weight: 500;

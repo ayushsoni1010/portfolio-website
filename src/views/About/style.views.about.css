@@ -1,0 +1,85 @@
+div.about-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.about-section-wrapper > h1.about-section-title {
+  margin-top: 1em;
+  font-size: 90px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 800;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  font-family: 'Baloo 2',sans-serif;
+}
+
+div.about-section-wrapper > p.bg-about {
+  font-size: 110px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 125px;
+  opacity: 30%;
+}
+
+div.about-section-wrapper > div.about-info-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3em;
+  gap: 5rem;
+}
+
+div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4em;
+}
+
+div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para > p {
+  margin-right: 8em;
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: left;
+}
+
+div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para > a {
+  margin-top: 30px;
+  margin-right: 45em;
+}
+
+div.about-section-wrapper > div.about-info-wrapper > img.about-me-profilePic {
+  margin-right: 5em;
+  margin-top: -30px;
+}
+/*# sourceMappingURL=style.views.about.css.map */

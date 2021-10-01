@@ -12,10 +12,13 @@ button.button-properties{
     &:focus{
         outline: none;
     }
+    &:hover{
+        background-color: hsl(240, 100%, 60%);
+    }
 }
 
 button.button-icon-properties{
-    padding: 0.7em 1.5em;
+    padding: 0.8em 1.5em;
     text-align: center;
     font-size: 18px;
     font-family: inherit;
@@ -27,6 +30,9 @@ button.button-icon-properties{
     cursor: pointer;
     &:focus{
         outline: none;
+    }
+    &:hover{
+        background-color: hsl(240, 100%, 60%);
     }
     > i{
         padding-right: 10px;

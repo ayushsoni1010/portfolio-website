@@ -36,7 +36,9 @@ div.intro-section-wrapper{
                         border-radius: 100%;
                         cursor: pointer;
                         &:hover{
-                            background-color: #dadada;
+                            box-shadow: 0px 0px 10px #ccc;
+                            transform: scale(1.1);
+                            transition: all 0.2s ease-in-out;  
                         }
                     }
                 }

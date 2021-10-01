@@ -69,7 +69,12 @@ div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div
 }
 
 div.intro-section-wrapper > div.profile-content > div.social-links-wrapper > div.social-links-list > a > button:hover {
-  background-color: #dadada;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 div.intro-section-wrapper > div.git-image {
