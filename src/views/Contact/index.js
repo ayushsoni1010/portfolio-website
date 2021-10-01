@@ -3,10 +3,10 @@ import "./style.views.contactUs.css";
 import Button from '../../components/widgets/Button'
 import imgContact from "../../Assets/contactUs.svg";
 
-export default function ContactUs() {
+export default function Contact() {
   return (
     <div className="contact-us">
-      <h1 className="contact-us-title  ">Contact Us</h1>
+      <h1 className="contact-us-title gradient-text ">Contact Me</h1>
 
       <div className="form-section-wrapper">
         <img

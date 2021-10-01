@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=style.footer.css.map */
+footer.footer-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+footer.footer-section-wrapper > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer.footer-section-wrapper > div.social-links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.footer-section-wrapper > div.social-links-wrapper > div.social-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+footer.footer-section-wrapper > div.social-links-wrapper > div.social-links-list > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer.footer-section-wrapper > div.social-links-wrapper > div.social-links-list > a > button {
+  padding: 8px;
+  font-size: 20px;
+  background: none;
+  border: 2px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+footer.footer-section-wrapper > div.social-links-wrapper > div.social-links-list > a > button:hover {
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/*# sourceMappingURL=style.footer.css.map */
