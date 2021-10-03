@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.views.contactUs.css";
-import Button from '../../components/widgets/Button'
+import Button from '../../components/widgets/Button';
+import BgText from '../../components/widgets/BgText';
 import imgContact from "../../Assets/contactUs.svg";
 
 export default function Contact() {
   return (
     <div className="contact-us">
       <h1 className="contact-us-title">Contact Me</h1>
-      <p className="bg-contact">Contact Me</p>
-
+      <BgText title="Contact Me"/>
       <div className="form-section-wrapper">
         <img
           src={imgContact}

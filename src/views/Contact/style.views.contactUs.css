@@ -29,14 +29,6 @@ div.contact-us > h1.contact-us-title {
   font-family: 'Baloo 2',sans-serif;
 }
 
-div.contact-us > p.bg-contact {
-  font-size: 110px;
-  font-weight: 700;
-  position: absolute;
-  margin-top: 125px;
-  opacity: 30%;
-}
-
 div.contact-us > div.form-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

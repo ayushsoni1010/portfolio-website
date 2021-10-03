@@ -1,0 +1,21 @@
+div.bgtext-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.bgtext-wrapper > p.bg-text-title {
+  font-size: 110px;
+  font-weight: 700;
+  margin-top: -110px;
+  color: #e1e1e1;
+}
+/*# sourceMappingURL=style.widgets.bgtext.css.map */

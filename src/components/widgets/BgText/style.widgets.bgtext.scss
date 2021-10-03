@@ -1,0 +1,13 @@
+div.bgtext-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    > p.bg-text-title{
+        font-size: 110px;
+        font-weight: 700;
+        margin-top: -110px;
+        color: rgb(225, 225, 225);
+    }
+}
