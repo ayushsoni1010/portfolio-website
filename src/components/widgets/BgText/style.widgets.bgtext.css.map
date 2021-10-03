@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,eAAe,CAAA;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CAOpB;;AAZD,AAMI,GAND,AAAA,eAAe,GAMZ,CAAC,AAAA,cAAc,CAAA;EACb,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAkB;CAC5B",
+    "sources": [
+        "style.widgets.bgtext.scss"
+    ],
+    "names": [],
+    "file": "style.widgets.bgtext.css"
+}

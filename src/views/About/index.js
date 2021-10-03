@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.views.about.css";
 import Button from "../../components/widgets/Button";
+import BgText from "../../components/widgets/BgText";
 import profilePic from "../../Assets/profilePic.svg";
 
 export default function About() {
   return (
     <div className="about-section-wrapper">
-          <h1 className="about-section-title ">About Me</h1>
-          <p className="bg-about">About me</p>
+      <h1 className="about-section-title ">About Me</h1>
+      <BgText title="About Me"/>
       <div className="about-info-wrapper">
         <div className="about-me-btn-para">
           <p>
@@ -21,17 +22,28 @@ export default function About() {
             open-source projects and participating in open-source programs as a
             participant and mentor.
           </p>
-          <a
-            href="https://drive.google.com/file/d/1g77Jk2wmLhpw-Hshr0QJBDffstWgfOeJ/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button
-              value="Resume"
-              startIcon="fas fa-arrow-circle-down"
-              className="about-me-button"
-            />
-          </a>
+          <div className="btn-wrapper">
+            <a
+              href="https://drive.google.com/file/d/1g77Jk2wmLhpw-Hshr0QJBDffstWgfOeJ/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button
+                value="Resume"
+                startIcon="fas fa-arrow-circle-down"
+                className="about-me-button-resume"
+              />
+            </a>
+            <a
+              href="/contact"
+            >
+              <Button
+                value="Contact"
+                startIcon="fas fa-arrow-circle-down"
+                className="about-me-button-contact"
+              />
+            </a>
+          </div>
         </div>
         <img
           src={profilePic}
