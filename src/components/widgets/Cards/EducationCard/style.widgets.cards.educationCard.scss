@@ -1,7 +1,6 @@
 div.cards-wrapper{
     display: flex;
     flex-direction: column;
-    width: auto;
     height: auto;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
@@ -11,13 +10,12 @@ div.cards-wrapper{
     }
     > p.card-info{
         margin-top: 15px;
-        font-size: 18px;
-        font-weight: 500;
+        font-family: 'Inter';
     }
     > p.last-info{
         margin-top: 15px;
-        font-size: 18px;
-        font-weight: 500;
+        
+        font-family: 'Inter';
     }
 
 }

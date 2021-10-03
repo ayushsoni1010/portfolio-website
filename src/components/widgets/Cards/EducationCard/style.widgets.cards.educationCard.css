@@ -6,7 +6,6 @@ div.cards-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: auto;
   height: auto;
   -webkit-box-shadow: 0px 0px 5px #ccc;
           box-shadow: 0px 0px 5px #ccc;
@@ -20,13 +19,11 @@ div.cards-wrapper > h3.status-title {
 
 div.cards-wrapper > p.card-info {
   margin-top: 15px;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'Inter';
 }
 
 div.cards-wrapper > p.last-info {
   margin-top: 15px;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'Inter';
 }
-/*# sourceMappingURL=style.widgets.cards.css.map */
+/*# sourceMappingURL=style.widgets.cards.educationCard.css.map */

@@ -7,6 +7,7 @@ import LandingPage from './views/LandingPage/index';
 import Contact from './views/Contact';
 import About from './views/About';
 import Education from './views/Education';
+import Experience from './views/Experience';
 
 
 export default function App(){
@@ -18,6 +19,7 @@ export default function App(){
         <Route path="/" exact component={About}/>
         <Route path="/about" exact component={About}/>
         <Route path="/" exact component={Education}/>
+        <Route path="/" exact component={Experience}/>
         {/* <Route path="/projects" exact component={Projects}/> */}
         <Route path="/contact" exact component={Contact}/>
       </BrowserRouter>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.widgets.button.css";
+import "./style.widgets.mainButton.css";
 
 export default function Button(__buttonDetails) {
   if (!__buttonDetails.startIcon) {

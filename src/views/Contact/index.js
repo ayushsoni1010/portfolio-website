@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.views.contactUs.css";
-import Button from '../../components/widgets/Button';
+import MainButton from "../../components/widgets/Button/MainButton";
 import BgText from '../../components/widgets/BgText';
 import imgContact from "../../Assets/contactUs.svg";
 
@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className="contact-us">
       <h1 className="contact-us-title">Contact Me</h1>
-      <BgText title="Contact Me"/>
+      <BgText title="Contact Me" />
       <div className="form-section-wrapper">
         <img
           src={imgContact}
@@ -45,7 +45,7 @@ export default function Contact() {
             rows="5"
           ></textarea>
           <a href="/contact" className="submit-form-button">
-            <Button value="Submit" />
+            <MainButton value="Submit" />
           </a>
         </form>
       </div>
