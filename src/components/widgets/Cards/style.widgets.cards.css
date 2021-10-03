@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=style.widgets.cards.css.map */
+div.cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  padding: 3em;
+}
+
+div.cards-wrapper > h3.status-title {
+  font-family: 'Baloo 2',sans-serif;
+}
+
+div.cards-wrapper > p.card-info {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.cards-wrapper > p.last-info {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.widgets.cards.css.map */
