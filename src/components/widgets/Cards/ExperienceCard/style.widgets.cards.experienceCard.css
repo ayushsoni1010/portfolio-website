@@ -1,0 +1,44 @@
+div.experience-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  padding: 2em;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+}
+
+div.experience-card-wrapper > h1.experience-title {
+  font-family: 'Baloo 2';
+}
+
+div.experience-card-wrapper > p.company-title {
+  font-size: 19px;
+  font-family: 'Baloo 2';
+  font-weight: 500;
+}
+
+div.experience-card-wrapper > ul.experience-description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  font-family: 'Inter';
+}
+/*# sourceMappingURL=style.widgets.cards.experienceCard.css.map */

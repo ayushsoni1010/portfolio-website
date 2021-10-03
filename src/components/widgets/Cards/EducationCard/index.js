@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.widgets.cards.css';
+import './style.widgets.cards.educationCard.css';
 
 export default function Cards(__cardsProperties) {
     return (
