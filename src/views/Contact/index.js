@@ -1,10 +1,31 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "./style.views.contactUs.css";
 import MainButton from "../../components/widgets/Button/MainButton";
 import BgText from '../../components/widgets/BgText';
 import imgContact from "../../Assets/contactUs.svg";
 
 export default function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.React_App_Contact_Form_Service_Id,
+        process.env.React_App_Contact_Form_Template_Id,
+        e.target,
+        process.env.React_App_Contact_Form_User_Id
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <div className="contact-us">
       <h1 className="contact-us-title">Contact Me</h1>
@@ -16,7 +37,7 @@ export default function Contact() {
           className="contact-illustration"
         />
 
-        <form className="contact-us-form" action="" method="">
+        <form className="contact-us-form" action="" method="" onSubmit={sendEmail}>
           <label for="name">
             Name
             <input
