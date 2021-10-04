@@ -8,6 +8,7 @@ import Contact from './views/Contact';
 import About from './views/About';
 import Education from './views/Education';
 import Experience from './views/Experience';
+import Skills from './views/Skills';
 
 
 export default function App(){
@@ -20,6 +21,7 @@ export default function App(){
         <Route path="/about" exact component={About}/>
         <Route path="/" exact component={Education}/>
         <Route path="/" exact component={Experience}/>
+        <Route path="/" exact component={Skills}/>
         {/* <Route path="/projects" exact component={Projects}/> */}
         <Route path="/contact" exact component={Contact}/>
       </BrowserRouter>
