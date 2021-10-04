@@ -1,0 +1,151 @@
+div.skill-button-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10em;
+}
+
+div.skill-button-wrapper > ul {
+  font-family: inherit;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+div.skill-button-wrapper > ul > li {
+  list-style: none;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.skill-button-wrapper > ul > li > a {
+  font-size: 20px;
+  color: #333;
+  line-height: 15px;
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+  text-decoration: none;
+  display: block;
+  width: 210px;
+  height: 80px;
+  margin-left: 40px;
+  text-align: left;
+  background: #e6e6e6;
+  -webkit-transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+          transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+div.skill-button-wrapper > ul > li > a > i {
+  line-height: 80px;
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+div.skill-button-wrapper > ul > li > a::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(0deg) skewY(-45deg);
+          transform: rotate(0deg) skewY(-45deg);
+}
+
+div.skill-button-wrapper > ul > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(0deg) skewX(-45deg);
+          transform: rotate(0deg) skewX(-45deg);
+}
+
+div.skill-button-wrapper > ul > li > a:hover {
+  -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+          transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  -webkit-box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+div.skill-button-wrapper > ul > li > a:hover i {
+  color: #fff;
+}
+
+div.skill-button-wrapper > ul > li > a:hover span {
+  color: #fff;
+}
+
+div.skill-button-wrapper > ul > li > a > span {
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+div.skill-button-wrapper > ul > li > a > span:hover {
+  color: white;
+}
+
+div.skill-button-wrapper > ul > li > a > span.lastTitle {
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+div.skill-button-wrapper > ul > li > a > span.lastTitle:hover {
+  color: white;
+}
+
+div.skill-button-wrapper > ul > li:hover a {
+  background: blue;
+}
+
+div.skill-button-wrapper > ul > li:hover a:before {
+  background: #1818ff;
+}
+
+div.skill-button-wrapper > ul > li:hover a:after {
+  background: #4040ff;
+}
+/*# sourceMappingURL=style.widgets.skillButton.css.map */

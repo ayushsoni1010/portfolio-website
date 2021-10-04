@@ -1,0 +1,32 @@
+div.skills-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+}
+
+div.skills-section-wrapper > h1.skills-title {
+  margin-top: 1em;
+  font-size: 90px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 800;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  font-family: 'Baloo 2',sans-serif;
+}
+/*# sourceMappingURL=style.views.skills.css.map */
