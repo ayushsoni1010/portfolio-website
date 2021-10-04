@@ -34,9 +34,9 @@ export default function About() {
                 className="about-me-button-resume"
               />
             </a>
-            <a href="/contact">
+            <a href="https://calendly.com/ayushsoni1010/" target="_blank" rel="noreferrer">
               <MainButton
-                value="Contact"
+                value="Schedule a Meeting"
                 startIcon="fas fa-arrow-circle-down"
                 className="about-me-button-contact"
               />
@@ -52,3 +52,10 @@ export default function About() {
     </div>
   );
 }
+
+
+/*
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/ayushsoni1010', text: 'Schedule time with me', color: '#006bff', textColor: '#ffffff', branding: true }); }</script>
+*/

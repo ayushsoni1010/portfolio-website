@@ -9,7 +9,7 @@ import About from './views/About';
 import Education from './views/Education';
 import Experience from './views/Experience';
 import Skills from './views/Skills';
-
+import Projects from './views/Projects';
 
 export default function App(){
   return (
@@ -22,7 +22,7 @@ export default function App(){
         <Route path="/" exact component={Education}/>
         <Route path="/" exact component={Experience}/>
         <Route path="/" exact component={Skills}/>
-        {/* <Route path="/projects" exact component={Projects}/> */}
+        <Route path="/projects" exact component={Projects}/>
         <Route path="/contact" exact component={Contact}/>
       </BrowserRouter>
       <Footer/>
