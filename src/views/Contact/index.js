@@ -1,29 +1,26 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./style.views.contactUs.css";
-import MainButton from "../../components/widgets/Button/MainButton";
-import BgText from '../../components/widgets/BgText';
+import BgText from "../../components/widgets/BgText";
 import imgContact from "../../Assets/contactUs.svg";
 
 export default function Contact() {
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        process.env.React_App_Contact_Form_Service_Id,
-        process.env.React_App_Contact_Form_Template_Id,
+        "gmail",
+        "template_9zkhwz8",
         e.target,
-        process.env.React_App_Contact_Form_User_Id
+        "user_XUVi6Y9T6XwQDcIUhmykY"
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+      .then((res) => {
+        if (res.status === 200) alert("Thank You! Your Msg Has Been Sent !");
+        else alert("Error !");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
     e.target.reset();
   }
   return (
@@ -37,37 +34,39 @@ export default function Contact() {
           className="contact-illustration"
         />
 
-        <form className="contact-us-form" action="" method="" onSubmit={sendEmail}>
-          <label for="name">
+        <form
+          className="contact-us-form"
+          onSubmit={sendEmail}
+        >
+          <label htmlFor="name">
             Name
             <input
               type="text"
               placeholder="Enter your name"
               className="name-input"
-              id="name"
               name="name"
             />
           </label>
-          <label for="email">
+          <label htmlFor="email">
             Email Id
             <input
               type="text"
               placeholder="Enter your email"
               className="email-input"
-              id="email-id"
-              name="email-id"
+              name="email"
             />
           </label>
-          <label for="message">Message</label>
-          <textarea
-            name="textarea"
-            id="textarea-form-wrapper"
+          <label htmlFor="message">Message</label>
+          <textarea 
+            name="message"
             cols="30"
             rows="5"
           ></textarea>
-          <a href="/contact" className="submit-form-button">
-            <MainButton value="Submit" />
-          </a>
+          
+          <button type="submit" className="btn-submit" > 
+              Submit
+          </button>
+        
         </form>
       </div>
     </div>

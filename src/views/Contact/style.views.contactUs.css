@@ -75,7 +75,8 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > label {
 
 div.contact-us > div.form-section-wrapper > form.contact-us-form > label > input {
   display: block;
-  padding: 0.8em 1em;
+  padding: 0.8em;
+  width: 20em;
   border-radius: 10px;
   margin-top: 0.5em;
   border: 2px solid black;
@@ -96,7 +97,25 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea:focu
   outline: none;
 }
 
-div.contact-us > div.form-section-wrapper > form.contact-us-form > a.submit-form-button {
-  margin-top: 0.6em;
+div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit {
+  padding: 0.8em 1.5em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background-color: blue;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit:focus {
+  outline: none;
+}
+
+div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit:hover {
+  background-color: #3d3df5;
 }
 /*# sourceMappingURL=style.views.contactUs.css.map */

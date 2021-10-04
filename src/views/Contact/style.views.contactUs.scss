@@ -46,7 +46,8 @@ div.contact-us{
                 margin-top: 1em;
                 > input{
                     display: block;
-                    padding: 0.8em 1em;
+                    padding: 0.8em;
+                    width: 20em;
                     border-radius: 10px;
                     margin-top: 0.5em;
                     border: 2px solid black;
@@ -64,8 +65,24 @@ div.contact-us{
                     outline: none;
                 }
             }
-            > a.submit-form-button{
-                margin-top: 0.6em;
+            > button.btn-submit{
+                padding: 0.8em 1.5em;
+                text-align: center;
+                font-size: 18px;
+                font-family: inherit;
+                border: none;
+                border-radius: 8px;
+                background-color: blue;  
+                font-weight: 500;
+                color: white;
+                cursor: pointer;
+                margin-top: 10px;
+                &:focus{
+                    outline: none;
+                }
+                &:hover{
+                    background-color: hsl(240, 90%, 60%);
+                }
             }
         }
     }
