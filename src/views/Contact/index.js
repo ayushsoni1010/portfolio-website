@@ -11,10 +11,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_9zkhwz8",
+        process.env.React_App_Contact_Form_Service_Id,
+        process.env.React_App_Contact_Form_Template_Id,
         e.target,
-        "user_XUVi6Y9T6XwQDcIUhmykY"
+        process.env.React_App_Contact_Form_User_Id
       )
       .then(
         (result) => {
@@ -23,7 +23,7 @@ export default function Contact() {
         (error) => {
           console.log(error.text);
         }
-    );
+      );
     e.target.reset();
   }
   return (
