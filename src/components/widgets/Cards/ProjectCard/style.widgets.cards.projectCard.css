@@ -1,0 +1,36 @@
+div.projectCard-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  width: 70%;
+  height: auto;
+  padding: 2em;
+  padding-left: 3em;
+  -webkit-box-shadow: 0px 0px 5px #ccc;
+          box-shadow: 0px 0px 5px #ccc;
+  overflow: hidden;
+}
+
+div.projectCard-wrapper > h1.project-card-title {
+  font-family: 'Baloo 2';
+}
+
+div.projectCard-wrapper > p.project-description {
+  font-family: 'Inter';
+  margin-top: 10px;
+}
+
+div.projectCard-wrapper > a {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.widgets.cards.projectCard.css.map */

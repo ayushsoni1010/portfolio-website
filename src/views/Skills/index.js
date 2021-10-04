@@ -25,7 +25,7 @@ export default function Skills() {
         startIcon2="devicon-css3-plain"
         title3="SASS"
         startIcon3="devicon-sass-original"
-        title4="React JS"
+        title4="React"
         startIcon4="devicon-react-original"
       />
       <SkillButton
@@ -34,7 +34,7 @@ export default function Skills() {
         title2="NPM"
         startIcon2="devicon-npm-original-wordmark"
         title3="Figma"
-        startIcon3="devicon-github-original"
+        startIcon3="devicon-figma-plain"
         title4="Adobe XD"
         startIcon4="devicon-xd-plain"
       />
