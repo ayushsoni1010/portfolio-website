@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <footer className="footer-section-wrapper">
       <p>
-        Made with <i class="fas fa-heart"></i> using React{" "}
-        <i class="fab fa-react"></i>
+        Made with <i className="fas fa-heart"></i> using React{" "}
+        <i className="fab fa-react"></i>
       </p>
       <div className="social-links-wrapper">
         {usefulLinks.map((data, index) => (
