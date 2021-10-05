@@ -9,7 +9,7 @@ export default function SkillButton(__buttonProperties) {
     <div className="skill-button-wrapper">
       <ul className="btn-properties">
         <li>
-          <a href="{clickHandler}">
+          <a href={clickHandler}>
             <i className={__buttonProperties.startIcon1}></i>
             <span>{__buttonProperties.title1}</span>
           </a>
