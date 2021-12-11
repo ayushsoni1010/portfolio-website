@@ -23,20 +23,30 @@ export default function Skills() {
         startIcon1="devicon-html5-plain"
         title2="CSS"
         startIcon2="devicon-css3-plain"
-        title3="SASS"
-        startIcon3="devicon-sass-original"
-        title4="React"
-        startIcon4="devicon-react-original"
+        title3="Figma"
+        startIcon3="devicon-figma-plain"
+        title4="Adobe XD"
+        startIcon4="devicon-xd-plain"
+      />
+      <SkillButton
+        title1="SASS"
+        startIcon1="devicon-css3-plain"
+        title4="Storybook"
+        startIcon4="devicon-storybook-plain"
+        title3="VueJS"
+        startIcon3="devicon-vuejs-plain"
+        title2="React"
+        startIcon2="devicon-react-original"
       />
       <SkillButton
         title1="Git"
         startIcon1="devicon-git-plain"
         title2="NPM"
         startIcon2="devicon-npm-original-wordmark"
-        title3="Figma"
-        startIcon3="devicon-figma-plain"
-        title4="Adobe XD"
-        startIcon4="devicon-xd-plain"
+        title3="Yarn"
+        startIcon3="devicon-yarn-plain"
+        title4="Docker"
+        startIcon4="devicon-docker-plain"
       />
     </div>
   );
