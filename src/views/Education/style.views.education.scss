@@ -3,8 +3,6 @@ div.education-section-wrapper{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 5em;
     > h1.education-section-title{
         margin-top: 1em;
@@ -13,8 +11,6 @@ div.education-section-wrapper{
         font-family: inherit;
         font-weight: 800;
         color: black;
-        margin-right: auto;
-        margin-left: auto;
         z-index: 10;
         font-family: 'Baloo 2',sans-serif;
     }
@@ -23,5 +19,17 @@ div.education-section-wrapper{
         flex-direction: row;
         gap: 30px;
         margin-top: 3em;
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    div.education-section-wrapper{
+        display: flex;
+        flex-direction: column;
+        >div.education-cards-wrapper{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

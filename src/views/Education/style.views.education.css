@@ -12,8 +12,6 @@ div.education-section-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 5em;
 }
 
@@ -24,8 +22,6 @@ div.education-section-wrapper > h1.education-section-title {
   font-family: inherit;
   font-weight: 800;
   color: black;
-  margin-right: auto;
-  margin-left: auto;
   z-index: 10;
   font-family: 'Baloo 2',sans-serif;
 }
@@ -40,5 +36,27 @@ div.education-section-wrapper > div.education-cards-wrapper {
           flex-direction: row;
   gap: 30px;
   margin-top: 3em;
+  margin-left: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+  div.education-section-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.education-section-wrapper > div.education-cards-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.views.education.css.map */
