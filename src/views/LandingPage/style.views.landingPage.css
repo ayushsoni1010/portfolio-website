@@ -9,7 +9,7 @@ div.intro-section-wrapper {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 4em;
+  margin: 2em;
 }
 
 div.intro-section-wrapper > div.profile-content {
@@ -86,5 +86,37 @@ div.intro-section-wrapper > div.git-image {
 div.intro-section-wrapper > div.git-image > img {
   width: 500px;
   cursor: pointer;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  div.intro-section-wrapper > div.profile-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.intro-section-wrapper > div.profile-content > p.greet {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 8px;
+  }
+  div.intro-section-wrapper > div.profile-content > h1.name {
+    font-size: 130px;
+    font-weight: 700;
+  }
+  div.intro-section-wrapper > div.profile-content > p.titles {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  div.intro-section-wrapper > div.git-image > img {
+    width: 400px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
 }
 /*# sourceMappingURL=style.views.landingPage.css.map */

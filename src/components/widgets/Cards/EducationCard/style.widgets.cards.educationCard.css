@@ -6,6 +6,7 @@ div.cards-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 45%;
   height: auto;
   -webkit-box-shadow: 0px 0px 5px #ccc;
           box-shadow: 0px 0px 5px #ccc;

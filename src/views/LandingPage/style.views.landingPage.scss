@@ -1,61 +1,103 @@
-div.intro-section-wrapper{
+div.intro-section-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    margin: 4em;
-    > div.profile-content{
+    justify-content: space-evenly;
+    margin: 2em;
+
+    >div.profile-content {
         display: flex;
         flex-direction: column;
-        > p.greet{
+
+        >p.greet {
             font-size: 35px;
             font-weight: 700;
             margin-left: 8px;
         }
-        > h1.name{
+
+        >h1.name {
             font-size: 150px;
             font-weight: 700;
         }
-        > p.titles{
+
+        >p.titles {
             font-size: 30px;
             margin: 8px;
             font-weight: 700;
         }
-        > div.social-links-wrapper{
+
+        >div.social-links-wrapper {
             display: flex;
             margin-left: 8px;
-            > div.social-links-list{
+
+            >div.social-links-list {
                 display: flex;
                 gap: 15px;
-                > a{
+
+                >a {
                     display: flex;
-                    > button{
-                        padding:8px;
+
+                    >button {
+                        padding: 8px;
                         font-size: 20px;
                         background: none;
                         border: 2px solid black;
                         border-radius: 100%;
                         cursor: pointer;
-                        &:hover{
+
+                        &:hover {
                             box-shadow: 0px 0px 10px #ccc;
                             transform: scale(1.1);
-                            transition: all 0.2s ease-in-out;  
+                            transition: all 0.2s ease-in-out;
                         }
                     }
                 }
             }
         }
     }
-    > div.git-image{
+
+    >div.git-image {
         display: flex;
-        > img{
+
+        >img {
             width: 500px;
             cursor: pointer;
+            margin-right: 20px;
         }
     }
 }
 
-// @media screen and (max-width: 900px) {
-//     .git-photo{
-//         width: 100px;
-//     }
-// }
+@media screen and (max-width: 1280px) {
+    div.intro-section-wrapper {
+        >div.profile-content {
+            display: flex;
+            flex-direction: column;
+
+            >p.greet {
+                font-size: 30px;
+                font-weight: 700;
+                margin-left: 8px;
+            }
+
+            >h1.name {
+                font-size: 130px;
+                font-weight: 700;
+            }
+
+            >p.titles {
+                font-size: 30px;
+                margin-top: 50px;
+                font-weight: 700;
+            }
+        }
+
+        >div.git-image {
+            >img {
+                width: 400px;
+                cursor: pointer;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+//breakpoint = 1080px;
