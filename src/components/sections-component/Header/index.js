@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../Assets/logoIcon.svg'
 import headerOptions from './__headerOptions.json';
 import './style.header.css';
@@ -9,16 +10,16 @@ export default function Header() {
     return (
       <header className="header">
         <div className="logo-wrapper">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="Logo" /><p>AYUSH SONI</p>
-          </a>
+          </Link>
         </div>
         <div className="header-options-container">
           {headerDetails.map((data, index) => {
             return (
               <ul className="header-options-wrapper" key={index}>
                 <li className="header-option-list">
-                  <a href={data.path}>{data.title}</a>
+                  <Link to={data.path}>{data.title}</Link>
                 </li>
               </ul>
             );
