@@ -17,7 +17,6 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Route path="/" exact component={LandingPage} />
-        <Route path="/" exact component={About} />
         <Route path="/about" exact component={About} />
         <Route path="/" exact component={Education} />
         <Route path="/" exact component={Experience} />
