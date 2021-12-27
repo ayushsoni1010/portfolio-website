@@ -17,7 +17,6 @@ div.about-section-wrapper {
 }
 
 div.about-section-wrapper > h1.about-section-title {
-  margin-top: 1em;
   font-size: 90px;
   text-align: center;
   font-family: inherit;
@@ -55,7 +54,7 @@ div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 4em;
+  margin-left: 3em;
 }
 
 div.about-section-wrapper > div.about-info-wrapper > div.about-me-btn-para > p {

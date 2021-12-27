@@ -24,7 +24,7 @@ export default function Experience() {
             description3="Working on a CSS library that results in solving frontend crisis called eccentrictouch using ReactJS, SCSS."
           />
           <ExperienceCard
-            title="Microsoft Learn Student Ambassadors"
+            title="Microsoft Learn Student Ambassador"
             companyName="Microsoft"
             description1="Microsoft Learn Student Ambassadors are the on-campus leaders with a passion for making a difference."
             description2="Attended various events organized under the MLSA community."
