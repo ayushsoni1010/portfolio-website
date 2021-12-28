@@ -15,7 +15,7 @@ export default function Contact() {
         "user_XUVi6Y9T6XwQDcIUhmykY"
       )
       .then((res) => {
-        if (res.status === 200) alert("Thank You! Your Msg Has Been Sent !");
+        if (res.status === 200) alert("Thank You! Your message has been sent !");
         else alert("Error !");
       })
       .catch((err) => {
@@ -34,10 +34,7 @@ export default function Contact() {
           className="contact-illustration"
         />
 
-        <form
-          className="contact-us-form"
-          onSubmit={sendEmail}
-        >
+        <form className="contact-us-form" onSubmit={sendEmail}>
           <label htmlFor="name">
             Name
             <input
@@ -45,6 +42,7 @@ export default function Contact() {
               placeholder="Enter your name"
               className="name-input"
               name="name"
+              required
             />
           </label>
           <label htmlFor="email">
@@ -54,19 +52,20 @@ export default function Contact() {
               placeholder="Enter your email"
               className="email-input"
               name="email"
+              required
             />
           </label>
-          <label htmlFor="message">Message</label>
-          <textarea 
+          <label htmlFor="name">Message</label>
+          <textarea
             name="message"
-            cols="30"
-            rows="5"
-          ></textarea>
-          
-          <button type="submit" className="btn-submit" > 
-              Submit
+            cols="30" rows="5"
+            email
+            required>
+          </textarea>
+
+          <button type="submit" className="btn-submit">
+            Submit
           </button>
-        
         </form>
       </div>
     </div>
