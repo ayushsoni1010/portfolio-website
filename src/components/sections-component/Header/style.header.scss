@@ -1,51 +1,63 @@
-header.header{
+header.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    > div.logo-wrapper{
+
+    >div.logo-wrapper {
         display: flex;
         align-items: center;
-        > a{
+
+        >a {
             cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
-            > img{
+
+            >img {
                 width: 110px;
-                height: 110px;    > h1.about-section-title{
-        margin-top: 1em;
-        font-size: 80px;
-        text-align: center;
-        font-family: inherit;
-        font-weight: 700;
-        color: black;
-        margin-right: auto;
-        margin-left: auto;
-    }
+                height: 110px;
+
+                >h1.about-section-title {
+                    margin-top: 1em;
+                    font-size: 80px;
+                    text-align: center;
+                    font-family: inherit;
+                    font-weight: 700;
+                    color: black;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+
                 margin-left: 10px;
             }
-            > p{
+
+            >p {
                 color: black;
                 font-weight: 500;
                 margin-left: -20px;
             }
         }
     }
-    > div.header-options-container{
+
+    >div.header-options-container {
         display: flex;
         justify-content: center;
         align-content: center;
         gap: 30px;
         margin-left: auto;
         margin-right: 50px;
-        > ul.header-options-wrapper{
+
+        >ul.header-options-wrapper {
             list-style: none;
-            >li.header-option-list{
+
+            >li.header-option-list {
                 font-size: 18px;
-                > a{
+
+                >a {
                     color: black;
-                    &:hover{
-                        color:#808080;
+
+                    &:hover {
+                        color: #808080;
                         transition: all 0.1s ease-in-out;
                     }
                 }
