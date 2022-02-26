@@ -12,15 +12,8 @@ export default function About() {
       <div className="about-info-wrapper">
         <div className="about-me-btn-para">
           <p>
-            I'm Ayush Soni, a sophomore computer science undergraduate student,
-            a future computer science engineer who is fascinated about
-            programming and passionate about exploring the latest technologies
-            and developing new things. An enthusiastic person with a touch of
-            curiosity and hard work and heavily ambitious to improve knowledge.
-            Active participant in hacking at hackathons and mentoring hackers at
-            hackathons, collaborating within the communities, contributing to
-            open-source projects and participating in open-source programs as a
-            participant and mentor.
+            I'm Ayush Soni, a sophomore computer science undergraduate, a future computer science engineer who is fascinated about programming and passionate about exploring the latest technologies
+            and developing new things. An enthusiastic person with a touch of curiosity and hard work and heavily ambitious to improve knowledge. Active participant in hacking at hackathons and mentoring hackers at hackathons, collaborating within the communities, contributing to open-source projects and participating in open-source programs as a participant and mentor.
           </p>
           <div className="btn-wrapper">
             <a

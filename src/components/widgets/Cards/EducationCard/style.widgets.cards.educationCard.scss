@@ -1,21 +1,37 @@
-div.cards-wrapper{
+div.cards-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 45%;
     height: auto;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1),
+        0px 1px 3px rgba(16, 24, 40, 0.1);
     border-radius: 10px;
     padding: 3em;
-    > h3.status-title{
-        font-family: 'Baloo 2',sans-serif;
+
+    &:hover {
+        box-shadow: 0px 4px 6px -4px rgba(16, 24, 40, 0.1),
+            0px 10px 15px -3px rgba(16, 24, 40, 0.1);
     }
-    > p.card-info{
-        margin-top: 15px;
-        font-family: 'Inter';
+
+    >h3.status-title {
+        font-family: 'Baloo 2', sans-serif;
     }
-    > p.last-info{
+
+    >p.card-info {
         margin-top: 15px;
         font-family: 'Inter';
     }
 
+    >p.last-info {
+        margin-top: 15px;
+        font-family: 'Inter';
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    div.cards-wrapper {
+        width: 90%;
+        height: auto;
+    }
 }
