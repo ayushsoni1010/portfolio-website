@@ -53,3 +53,14 @@ div.experience-card-wrapper {
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    div.experience-card-wrapper {
+        >h1.experience-title {
+            font-size: 18px;
+        }
+        >p.company-title {
+            font-size: 17px;
+        }
+    }
+}

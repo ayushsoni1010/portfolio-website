@@ -38,4 +38,22 @@ div.projectCard-wrapper > p.project-description {
 div.projectCard-wrapper > a {
   margin-top: 40px;
 }
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  div.projectCard-wrapper {
+    width: 80%;
+  }
+  div.projectCard-wrapper > h1.project-card-title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.projectCard-wrapper {
+    width: 90%;
+  }
+  div.projectCard-wrapper > h1.project-card-title {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=style.widgets.cards.projectCard.css.map */

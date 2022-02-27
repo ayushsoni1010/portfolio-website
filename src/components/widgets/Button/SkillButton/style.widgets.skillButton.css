@@ -21,9 +21,14 @@ div.skill-button-wrapper > ul {
   padding: 0;
 }
 
-div.skill-button-wrapper > ul > li {
+div.skill-button-wrapper > ul > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.skill-button-wrapper > ul > div > li {
   list-style: none;
-  margin: 0 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +40,7 @@ div.skill-button-wrapper > ul > li {
           align-items: center;
 }
 
-div.skill-button-wrapper > ul > li > a {
+div.skill-button-wrapper > ul > div > li > a {
   font-size: 20px;
   color: #333;
   line-height: 15px;
@@ -56,13 +61,13 @@ div.skill-button-wrapper > ul > li > a {
           box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
 
-div.skill-button-wrapper > ul > li > a > i {
+div.skill-button-wrapper > ul > div > li > a > i {
   line-height: 80px;
   font-size: 60px;
   padding-left: 20px;
 }
 
-div.skill-button-wrapper > ul > li > a::before {
+div.skill-button-wrapper > ul > div > li > a::before {
   content: '';
   position: absolute;
   top: 10px;
@@ -76,7 +81,7 @@ div.skill-button-wrapper > ul > li > a::before {
           transform: rotate(0deg) skewY(-45deg);
 }
 
-div.skill-button-wrapper > ul > li > a::after {
+div.skill-button-wrapper > ul > div > li > a::after {
   content: '';
   position: absolute;
   bottom: -20px;
@@ -90,7 +95,7 @@ div.skill-button-wrapper > ul > li > a::after {
           transform: rotate(0deg) skewX(-45deg);
 }
 
-div.skill-button-wrapper > ul > li > a:hover {
+div.skill-button-wrapper > ul > div > li > a:hover {
   -webkit-transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
           transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
   -webkit-box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
@@ -98,15 +103,15 @@ div.skill-button-wrapper > ul > li > a:hover {
   cursor: pointer;
 }
 
-div.skill-button-wrapper > ul > li > a:hover i {
+div.skill-button-wrapper > ul > div > li > a:hover i {
   color: #fff;
 }
 
-div.skill-button-wrapper > ul > li > a:hover span {
+div.skill-button-wrapper > ul > div > li > a:hover span {
   color: #fff;
 }
 
-div.skill-button-wrapper > ul > li > a > span {
+div.skill-button-wrapper > ul > div > li > a > span {
   padding: 0;
   position: absolute;
   top: 30px;
@@ -118,11 +123,11 @@ div.skill-button-wrapper > ul > li > a > span {
   font-weight: 600;
 }
 
-div.skill-button-wrapper > ul > li > a > span:hover {
+div.skill-button-wrapper > ul > div > li > a > span:hover {
   color: white;
 }
 
-div.skill-button-wrapper > ul > li > a > span.lastTitle {
+div.skill-button-wrapper > ul > div > li > a > span.lastTitle {
   padding: 0;
   position: absolute;
   top: 30px;
@@ -134,19 +139,88 @@ div.skill-button-wrapper > ul > li > a > span.lastTitle {
   font-weight: 600;
 }
 
-div.skill-button-wrapper > ul > li > a > span.lastTitle:hover {
+div.skill-button-wrapper > ul > div > li > a > span.lastTitle:hover {
   color: white;
 }
 
-div.skill-button-wrapper > ul > li:hover a {
+div.skill-button-wrapper > ul > div > li:hover a {
   background: blue;
 }
 
-div.skill-button-wrapper > ul > li:hover a:before {
+div.skill-button-wrapper > ul > div > li:hover a:before {
   background: #1818ff;
 }
 
-div.skill-button-wrapper > ul > li:hover a:after {
+div.skill-button-wrapper > ul > div > li:hover a:after {
   background: #4040ff;
+}
+
+@media screen and (max-width: 1100px) {
+  div.skill-button-wrapper > ul > div > li > a {
+    font-size: 16px;
+    width: 170px;
+    height: 70px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > i {
+    line-height: 70px;
+    font-size: 40px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+  div.skill-button-wrapper > ul > div > li > a {
+    font-size: 14px;
+    width: 160px;
+    height: 60px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > i {
+    line-height: 60px;
+    font-size: 40px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span {
+    top: 25px;
+    margin-left: 15px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span:hover {
+    color: white;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span.lastTitle {
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.skill-button-wrapper > ul > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+  }
+  div.skill-button-wrapper > ul > div > li > a {
+    font-size: 14px;
+    width: 160px;
+    height: 60px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > i {
+    line-height: 60px;
+    font-size: 40px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span {
+    top: 25px;
+    margin-left: 15px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span:hover {
+    color: white;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span.lastTitle {
+    top: 25px;
+  }
 }
 /*# sourceMappingURL=style.widgets.skillButton.css.map */

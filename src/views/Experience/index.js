@@ -26,28 +26,28 @@ export default function Experience() {
             title="Microsoft Learn Student Ambassador"
             companyName="Microsoft"
             description1="Microsoft Learn Student Ambassadors are the on-campus leaders with a passion for making a difference."
-            description2="Attended various events organized under the MLSA community."
+            description2=" In a collaboration with the Coding Society Community, I had conducted a 3-days long session on Web Development and build a hands-on project which is based on LinkTree."
             description3="Building vibrant communities, and sharing the latest tech with their peers and interacting with fellow MLSA's in the community."
           />
           <ExperienceCard
             title="Script Fellowship"
             companyName="Script Foundation"
-            description1="Selected as a Fellow in Script Fellowship Program21 and contributing to open source projects."
-            description2="Working on four projects from scratch using ReactJS, Vanilla JS, SCSS and UI-UX designing."
-            description3="Holding meet-ups with newbies and mentoring other fellows about the projects and Git and GitHub."
+            description1="As a Fellow in Script Fellowship Program'21, I am the top first contributor in Script Fellowship."
+            description2="Worked on KaroVerify, CraftBrain, and HACK-OV8 projects which are based on the MERN stack."
+            description3="Implemented the frontend UI of the open-source projects using ReactJS, SCSS/CSS, HTML, JS."
           />
           <ExperienceCard
             title="Hackathon Mentor"
             companyName="AnyoneCanCo.de , HackTheNorth"
-            description1="Selected as a mentor in HackACode’21 and HTN’21 hackathon at AnyoneCanCo.de and HackTheNorth."
-            description2=" Mentoring people about hackathon, open-source, API s , frontend, git & github and various tech related stuff. "
+            description1=" I have successfully mentored many folks at HackACode'21 and HackTheNorth and I am truly thankful and really appreciate the active participation from both the participant and the organizers of the event."
+            description2=" Mentored people about hackathon, open-source, API s , frontend, git & github and various tech related stuff. "
             description3=" Collaborated within the community, discussed about the project hacks and having meet-ups with the organizers, sponsors and volunteers."
           />
           <ExperienceCard
             title="Open Source Contributor/Mentor"
             companyName="LGMSoC , DCP , GWoC , SWoC , WoC-2.0"
             description1="Contributed to various open-source projects related to frontend , UI-UX designing and documentation."
-            description2="Collaborating within the community and worked on few projects from scratch related to web development and programming."
+            description2="Collaborated within the community and worked on few projects from scratch related to web development and programming."
             description3="Awarded scholarship for the Web Development course at DevIncept Training Programs."
           />
         </div>
