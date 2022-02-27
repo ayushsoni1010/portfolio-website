@@ -1,22 +1,12 @@
-div.projects-section-wrapper{
+div.projects-section-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
-    > h1.project-title{
-        font-size: 90px;
-        text-align: center;
-        font-family: inherit;
-        font-weight: 800;
-        color: black;
-        margin-right: auto;
-        margin-left: auto;
-        z-index: 10;
-        font-family: 'Baloo 2',sans-serif;
-    }
-    > div.project-card-wrapper{
+ 
+    >div.project-card-wrapper {
         margin-top: 4em;
         display: flex;
         flex-direction: column;

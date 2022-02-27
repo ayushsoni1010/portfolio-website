@@ -2,6 +2,10 @@ div.bgtext-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -12,7 +16,19 @@ div.bgtext-wrapper {
   margin-left: auto;
 }
 
-div.bgtext-wrapper > p.bg-text-title {
+div.bgtext-wrapper > h1.bg-text-title {
+  font-size: 90px;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 800;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+div.bgtext-wrapper > p.bg-text-bg-title {
   font-size: 110px;
   font-weight: 700;
   margin-top: -110px;

@@ -6,8 +6,7 @@ import ProjectCard from "../../components/widgets/Cards/ProjectCard";
 export default function Projects() {
   return (
     <div className="projects-section-wrapper">
-      <h1 className="project-title">Projects</h1>
-      <BgText title="Projects" />
+      <BgText title="Projects" bgTitle="Projects" />
       <div className="project-card-wrapper">
         <ProjectCard
           projectTitle="Eccentric Touch"

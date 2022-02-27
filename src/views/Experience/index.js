@@ -6,8 +6,7 @@ import ExperienceCard from '../../components/widgets/Cards/ExperienceCard';
 export default function Experience() {
     return (
       <div className="experience-section-wrapper">
-        <h1 className="experience-title">Experience</h1>
-        <BgText title="Experience" />
+        <BgText title="Work" bgTitle="Experience" />
         <div className="experience-card-section-wrapper">
           <ExperienceCard
             title="Software Engineer Intern"

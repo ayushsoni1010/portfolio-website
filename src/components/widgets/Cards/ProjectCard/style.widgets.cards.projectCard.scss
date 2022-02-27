@@ -1,24 +1,33 @@
-div.projectCard-wrapper{
+div.projectCard-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 10px;
     width: 70%;
     height: auto;
     padding: 2em;
     padding-left: 3em;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1),
+        0px 1px 3px rgba(16, 24, 40, 0.1);
+    border-radius: 10px;
     overflow: hidden;
-    > h1.project-card-title{
+
+    &:hover {
+        box-shadow: 0px 4px 6px -4px rgba(16, 24, 40, 0.1),
+            0px 10px 15px -3px rgba(16, 24, 40, 0.1);
+    }
+
+    >h1.project-card-title {
         font-family: 'Baloo 2';
     }
-    > p.project-description{
+
+    >p.project-description {
         font-family: 'Inter';
         margin-top: 10px;
     }
-    > a{
+
+    >a {
         margin-top: 40px;
     }
 }
