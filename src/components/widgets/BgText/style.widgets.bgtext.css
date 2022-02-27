@@ -6,12 +6,6 @@ div.bgtext-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-right: auto;
   margin-left: auto;
 }
@@ -22,8 +16,6 @@ div.bgtext-wrapper > h1.bg-text-title {
   font-family: inherit;
   font-weight: 800;
   color: black;
-  margin-right: auto;
-  margin-left: auto;
   z-index: 10;
   font-family: 'Baloo 2', sans-serif;
 }
@@ -33,5 +25,15 @@ div.bgtext-wrapper > p.bg-text-bg-title {
   font-weight: 700;
   margin-top: -110px;
   color: #e1e1e1;
+}
+
+@media screen and (max-width: 700px) {
+  div.bgtext-wrapper > h1.bg-text-title {
+    font-size: 50px;
+  }
+  div.bgtext-wrapper > p.bg-text-bg-title {
+    font-size: 70px;
+    margin-top: -60px;
+  }
 }
 /*# sourceMappingURL=style.widgets.bgtext.css.map */

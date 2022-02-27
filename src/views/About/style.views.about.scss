@@ -21,7 +21,7 @@ div.about-section-wrapper {
             margin-left: 3em;
 
             >p {
-                margin-right: 8em;
+                margin-right: 3em;
                 line-height: 1.6;
                 font-size: 20px;
                 text-align: justify;
@@ -39,6 +39,52 @@ div.about-section-wrapper {
             margin-right: 5em;
             width: 300px;
             height: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    div.about-section-wrapper {
+        >div.about-info-wrapper {
+            >div.about-me-btn-para {
+                >div.btn-wrapper {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    div.about-section-wrapper {
+        >div.about-info-wrapper {
+            >div.about-me-btn-para {
+                >p {
+                    font-size: 18px;
+                }
+
+                >div.btn-wrapper {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    div.about-section-wrapper {
+        >div.about-info-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            >div.about-me-btn-para {
+                margin-top: 40px;
+                margin-left: 5px;
+
+                >div.btn-wrapper {
+                    margin-top: 20px;
+                }
+            }
         }
     }
 }

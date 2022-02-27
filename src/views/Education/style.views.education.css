@@ -25,7 +25,6 @@ div.education-section-wrapper > div.education-cards-wrapper {
           flex-direction: row;
   gap: 30px;
   margin-top: 3em;
-  margin-left: 60px;
 }
 
 @media only screen and (max-width: 900px) {
