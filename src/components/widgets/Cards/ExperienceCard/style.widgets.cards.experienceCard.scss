@@ -4,7 +4,7 @@ div.experience-card-wrapper {
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     height: auto;
     padding: 3em;
     box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1),
@@ -32,5 +32,24 @@ div.experience-card-wrapper {
         gap: 5px;
         margin-top: 15px;
         font-family: 'Inter';
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+    div.experience-card-wrapper {
+        >h1.experience-title {
+            font-size: 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.experience-card-wrapper {
+        >h1.experience-title {
+            font-size: 20px;
+        }
+        >p.company-title {
+            font-size: 18px;
+        }
     }
 }
