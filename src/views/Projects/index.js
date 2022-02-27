@@ -40,8 +40,7 @@ export default function Projects() {
           rel="noreferrer"
         >
           <MainButton
-            value="Checkout More Projects"
-            startIcon="fa-solid fa-rocket-launch"
+            value="🚀 Checkout More Projects"
           />
         </a>
       </div>
