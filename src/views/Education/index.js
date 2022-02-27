@@ -5,8 +5,7 @@ import EducationCard from "../../components/widgets/Cards/EducationCard";
 export default function Education() {
   return (
     <div className="education-section-wrapper">
-      <h1 className="education-section-title">Education</h1>
-      <BgText title="Background" />
+      <BgText title="Education" bgTitle="Background"/>
       <div className="education-cards-wrapper">
         <EducationCard
           status="2018 - 2020"

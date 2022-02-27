@@ -35,7 +35,7 @@ div.cards-wrapper > p.last-info {
   font-family: 'Inter';
 }
 
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   div.cards-wrapper {
     width: 90%;
     height: auto;

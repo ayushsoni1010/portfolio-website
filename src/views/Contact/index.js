@@ -15,7 +15,8 @@ export default function Contact() {
         "user_XUVi6Y9T6XwQDcIUhmykY"
       )
       .then((res) => {
-        if (res.status === 200) alert("Thank You! Your message has been sent !");
+        if (res.status === 200)
+          alert("Thank You! Your message has been sent !");
         else alert("Error !");
       })
       .catch((err) => {
@@ -25,8 +26,7 @@ export default function Contact() {
   }
   return (
     <div className="contact-us">
-      <h1 className="contact-us-title">Contact Me</h1>
-      <BgText title="Contact Me" />
+      <BgText title="Contact Me" bgTitle="Contact Me" />
       <div className="form-section-wrapper">
         <img
           src={imgContact}
@@ -56,12 +56,7 @@ export default function Contact() {
             />
           </label>
           <label htmlFor="name">Message</label>
-          <textarea
-            name="message"
-            cols="30" rows="5"
-            email
-            required>
-          </textarea>
+          <textarea name="message" cols="30" rows="5" email required></textarea>
 
           <button type="submit" className="btn-submit">
             Submit

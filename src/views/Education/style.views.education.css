@@ -15,17 +15,6 @@ div.education-section-wrapper {
   margin-top: 5em;
 }
 
-div.education-section-wrapper > h1.education-section-title {
-  margin-top: 1em;
-  font-size: 90px;
-  text-align: center;
-  font-family: inherit;
-  font-weight: 800;
-  color: black;
-  z-index: 10;
-  font-family: 'Baloo 2',sans-serif;
-}
-
 div.education-section-wrapper > div.education-cards-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

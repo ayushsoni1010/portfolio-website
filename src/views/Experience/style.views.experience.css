@@ -17,19 +17,6 @@ div.experience-section-wrapper {
   margin-top: 5em;
 }
 
-div.experience-section-wrapper > h1.experience-title {
-  margin-top: 1em;
-  font-size: 90px;
-  text-align: center;
-  font-family: inherit;
-  font-weight: 800;
-  color: black;
-  margin-right: auto;
-  margin-left: auto;
-  z-index: 10;
-  font-family: 'Baloo 2',sans-serif;
-}
-
 div.experience-section-wrapper > div.experience-card-section-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

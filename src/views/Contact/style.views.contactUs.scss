@@ -1,22 +1,12 @@
-div.contact-us{
+div.contact-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
-    > h1.contact-us-title{
-        font-size: 90px;
-        text-align: center;
-        font-family: inherit;
-        font-weight: 800;
-        color: black;
-        margin-right: auto;
-        margin-left: auto;
-        z-index: 10;
-        font-family: 'Baloo 2',sans-serif;
-    }
-    > div.form-section-wrapper{
+
+    >div.form-section-wrapper {
         display: flex;
         justify-content: space-between;
         margin-right: auto;
@@ -29,57 +19,67 @@ div.contact-us{
         border: 2px solid #dadada;
         border-radius: 20px;
         box-shadow: 0px 0px 5px #ccc;
-        > img.contact-illustration{
+
+        >img.contact-illustration {
             width: 300px;
         }
-        > form.contact-us-form{
+
+        >form.contact-us-form {
             display: flex;
             flex-direction: column;
             margin-top: 3em;
             margin-right: 5em;
-            > label{
+
+            >label {
                 color: black;
                 font-family: inherit;
                 font-size: 18px;
                 font-weight: 600;
                 margin-top: 1em;
-                > input{
+
+                >input {
                     display: block;
                     padding: 0.8em;
                     width: 20em;
                     border-radius: 10px;
                     margin-top: 0.5em;
                     border: 2px solid black;
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                     }
                 }
             }
-            > textarea{
+
+            >textarea {
                 margin-top: 0.5em;
                 border-radius: 10px;
                 padding: 0.6em 0.8em;
-                border:2px solid black;
-                &:focus{
+                border: 2px solid black;
+
+                &:focus {
                     outline: none;
                 }
             }
-            > button.btn-submit{
+
+            >button.btn-submit {
                 padding: 0.8em 1.5em;
                 text-align: center;
                 font-size: 18px;
                 font-family: inherit;
                 border: none;
                 border-radius: 8px;
-                background-color: blue;  
+                background-color: blue;
                 font-weight: 500;
                 color: white;
                 cursor: pointer;
                 margin-top: 10px;
-                &:focus{
+
+                &:focus {
                     outline: none;
                 }
-                &:hover{
+
+                &:hover {
                     background-color: hsl(240, 90%, 60%);
                 }
             }

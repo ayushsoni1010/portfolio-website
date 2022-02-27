@@ -6,8 +6,7 @@ import BgText from "../../components/widgets/BgText";
 export default function Skills() {
   return (
     <div className="skills-section-wrapper">
-      <h1 className="skills-title">Skills</h1>
-      <BgText title="Skills" />
+      <BgText title="Skills" bgTitle="Skills" />
       <SkillButton
         title1="C"
         startIcon1="devicon-c-plain"
