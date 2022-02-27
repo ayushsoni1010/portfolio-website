@@ -33,3 +33,15 @@ div.bgtext-wrapper {
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    div.bgtext-wrapper {
+        >h1.bg-text-title {
+            font-size: 45px;
+        }
+        >p.bg-text-bg-title {
+            font-size: 55px;
+            margin-top: -50px;
+        }
+    }
+}

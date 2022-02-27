@@ -36,4 +36,14 @@ div.bgtext-wrapper > p.bg-text-bg-title {
     margin-top: -60px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  div.bgtext-wrapper > h1.bg-text-title {
+    font-size: 45px;
+  }
+  div.bgtext-wrapper > p.bg-text-bg-title {
+    font-size: 55px;
+    margin-top: -50px;
+  }
+}
 /*# sourceMappingURL=style.widgets.bgtext.css.map */
