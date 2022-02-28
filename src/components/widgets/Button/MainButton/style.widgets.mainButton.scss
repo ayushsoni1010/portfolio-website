@@ -1,4 +1,4 @@
-button.button-properties{
+button.button-properties {
     padding: 0.7em 1.5em;
     text-align: center;
     font-size: 18px;
@@ -9,32 +9,55 @@ button.button-properties{
     font-weight: 500;
     color: white;
     cursor: pointer;
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &:hover{
+
+    &:hover {
         background-color: hsl(240, 100%, 60%);
     }
 }
 
-button.button-icon-properties{
+@media screen and (max-width: 500px) {
+    button.button-properties {
+        padding: 0.6em 1.2em;
+        font-size: 16px;
+    }
+}
+
+button.button-icon-properties {
     padding: 0.8em 1.5em;
     text-align: center;
     font-size: 18px;
     font-family: inherit;
     border: none;
     border-radius: 8px;
-    background-color: blue;  
+    background-color: blue;
     font-weight: 500;
     color: white;
     cursor: pointer;
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &:hover{
+
+    &:hover {
         background-color: hsl(240, 100%, 60%);
     }
-    > i{
+
+    >i {
         padding-right: 10px;
-    }    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    button.button-icon-properties {
+        padding: 0.6em 1.2em;
+        font-size: 16px;
+
+        >i {
+            padding-right: 10px;
+        }
+    }
 }
