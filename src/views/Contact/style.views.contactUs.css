@@ -170,4 +170,38 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-su
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  div.contact-us > div.form-section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contact-us > div.form-section-wrapper > img.contact-illustration {
+    width: 250px;
+    margin-top: 50px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form {
+    margin-right: 1em;
+    padding-bottom: 50px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > label {
+    font-size: 16px;
+    width: 90%;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea {
+    width: 100%;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit {
+    font-size: 16px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.views.contactUs.css.map */

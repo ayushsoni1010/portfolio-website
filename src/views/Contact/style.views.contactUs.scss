@@ -136,9 +136,10 @@ div.contact-us {
                     width: 17em;
                 }
 
-                >textarea{
+                >textarea {
                     width: 20em;
                 }
+
                 >button.btn-submit {
                     font-size: 16px;
                     width: 98%;
@@ -154,9 +155,44 @@ div.contact-us {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             >img.contact-illustration {
                 width: 250px;
                 margin-top: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div.contact-us {
+        >div.form-section-wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            >img.contact-illustration {
+                width: 250px;
+                margin-top: 50px;
+            }
+
+            >form.contact-us-form {
+                margin-right: 1em;
+                padding-bottom: 50px;
+
+                >label {
+                    font-size: 16px;
+                    width: 90%;
+                }
+
+                >textarea {
+                    width: 100%;
+                }
+
+                >button.btn-submit {
+                    font-size: 16px;
+                    width: 100%;
+                }
             }
         }
     }

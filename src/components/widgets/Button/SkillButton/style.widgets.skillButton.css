@@ -226,7 +226,22 @@ div.skill-button-wrapper > ul > div > li:hover a:after {
 
 @media screen and (max-width: 500px) {
   div.skill-button-wrapper {
-    margin-left: -5px;
+    margin-left: -23px;
+  }
+  div.skill-button-wrapper > ul > div > li > a {
+    font-size: 13px;
+    width: 150px;
+    height: 50px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > i {
+    line-height: 50px;
+    font-size: 35px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span {
+    top: 20px;
+  }
+  div.skill-button-wrapper > ul > div > li > a > span.lastTitle {
+    top: 20px;
   }
 }
 /*# sourceMappingURL=style.widgets.skillButton.css.map */

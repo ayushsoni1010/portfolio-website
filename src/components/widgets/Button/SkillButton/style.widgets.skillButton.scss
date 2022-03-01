@@ -16,6 +16,7 @@ div.skill-button-wrapper {
 
         >div {
             display: flex;
+
             >li {
                 list-style: none;
                 display: flex;
@@ -195,6 +196,7 @@ div.skill-button-wrapper {
                 display: flex;
                 flex-direction: column;
                 gap: 50px;
+
                 >li {
                     >a {
                         font-size: 14px;
@@ -225,8 +227,35 @@ div.skill-button-wrapper {
         }
     }
 }
+
 @media screen and (max-width: 500px) {
     div.skill-button-wrapper {
-        margin-left: -5px;
+        margin-left: -23px;
+
+        >ul {
+            >div {
+                >li {
+                    >a {
+                        font-size: 13px;
+                        width: 150px;
+                        height: 50px;
+
+                        >i {
+                            line-height: 50px;
+                            font-size: 35px;
+                        }
+
+                        >span {
+                            top: 20px;
+                        }
+
+                        >span.lastTitle {
+                            top: 20px;
+                        }
+                    }
+                }
+            }
+
+        }
     }
 }

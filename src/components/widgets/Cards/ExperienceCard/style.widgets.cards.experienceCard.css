@@ -71,10 +71,10 @@ div.experience-card-wrapper > ul.experience-description-wrapper {
 
 @media screen and (max-width: 450px) {
   div.experience-card-wrapper > h1.experience-title {
-    font-size: 17px;
+    font-size: 14px;
   }
   div.experience-card-wrapper > p.company-title {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.widgets.cards.experienceCard.css.map */
