@@ -25,15 +25,19 @@ div.contact-us > div.form-section-wrapper {
           justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  gap: 10px;
   margin-top: 3em;
   width: 50em;
   height: 30em;
   background: #ffffff;
   border: 2px solid #dadada;
-  border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 5px #ccc;
-          box-shadow: 0px 0px 5px #ccc;
+  -webkit-box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1), 0px 1px 3px rgba(16, 24, 40, 0.1);
+          box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1), 0px 1px 3px rgba(16, 24, 40, 0.1);
+  border-radius: 10px;
+}
+
+div.contact-us > div.form-section-wrapper:hover {
+  -webkit-box-shadow: 0px 4px 6px -4px rgba(16, 24, 40, 0.1), 0px 10px 15px -3px rgba(16, 24, 40, 0.1);
+          box-shadow: 0px 4px 6px -4px rgba(16, 24, 40, 0.1), 0px 10px 15px -3px rgba(16, 24, 40, 0.1);
 }
 
 div.contact-us > div.form-section-wrapper > img.contact-illustration {
@@ -64,7 +68,7 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > label > input
   display: block;
   padding: 0.8em;
   width: 20em;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-top: 0.5em;
   border: 2px solid black;
 }
@@ -75,7 +79,7 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > label > input
 
 div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea {
   margin-top: 0.5em;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 0.6em 0.8em;
   border: 2px solid black;
 }
@@ -104,5 +108,66 @@ div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-su
 
 div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit:hover {
   background-color: #3d3df5;
+}
+
+@media screen and (max-width: 850px) {
+  div.contact-us > div.form-section-wrapper {
+    width: 95%;
+    height: 100%;
+  }
+  div.contact-us > div.form-section-wrapper > img.contact-illustration {
+    width: 250px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form {
+    margin-right: 2em;
+    padding-bottom: 50px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > label {
+    font-size: 17px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit {
+    padding: 0.7em 1.4em;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.contact-us > div.form-section-wrapper > img.contact-illustration {
+    width: 200px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form {
+    margin-right: 1em;
+    padding-bottom: 50px;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > label {
+    font-size: 16px;
+    width: 17em;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > textarea {
+    width: 20em;
+  }
+  div.contact-us > div.form-section-wrapper > form.contact-us-form > button.btn-submit {
+    font-size: 16px;
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.contact-us > div.form-section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.contact-us > div.form-section-wrapper > img.contact-illustration {
+    width: 250px;
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=style.views.contactUs.css.map */
