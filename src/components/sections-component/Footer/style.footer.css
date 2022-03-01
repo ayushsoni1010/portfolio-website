@@ -55,4 +55,14 @@ footer.footer-section-wrapper > div.social-links-wrapper > div.social-links-list
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 500px) {
+  footer.footer-section-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+  }
+}
 /*# sourceMappingURL=style.footer.css.map */

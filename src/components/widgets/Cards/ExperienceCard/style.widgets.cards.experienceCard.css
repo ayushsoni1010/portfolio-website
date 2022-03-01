@@ -68,4 +68,13 @@ div.experience-card-wrapper > ul.experience-description-wrapper {
     font-size: 17px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  div.experience-card-wrapper > h1.experience-title {
+    font-size: 17px;
+  }
+  div.experience-card-wrapper > p.company-title {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=style.widgets.cards.experienceCard.css.map */

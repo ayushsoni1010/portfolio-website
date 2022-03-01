@@ -223,4 +223,10 @@ div.skill-button-wrapper > ul > div > li:hover a:after {
     top: 25px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  div.skill-button-wrapper {
+    margin-left: -5px;
+  }
+}
 /*# sourceMappingURL=style.widgets.skillButton.css.map */

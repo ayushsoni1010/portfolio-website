@@ -64,3 +64,13 @@ div.experience-card-wrapper {
         }
     }
 }
+@media screen and (max-width: 450px) {
+    div.experience-card-wrapper {
+        >h1.experience-title {
+            font-size: 17px;
+        }
+        >p.company-title {
+            font-size: 16px;
+        }
+    }
+}

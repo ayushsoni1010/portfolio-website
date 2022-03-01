@@ -225,3 +225,8 @@ div.skill-button-wrapper {
         }
     }
 }
+@media screen and (max-width: 500px) {
+    div.skill-button-wrapper {
+        margin-left: -5px;
+    }
+}

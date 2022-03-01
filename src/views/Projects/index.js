@@ -39,9 +39,7 @@ export default function Projects() {
           target="_blank"
           rel="noreferrer"
         >
-          <MainButton
-            value="🚀 Checkout More Projects"
-          />
+          <MainButton value="🚀 Checkout More Projects" />
         </a>
       </div>
     </div>
